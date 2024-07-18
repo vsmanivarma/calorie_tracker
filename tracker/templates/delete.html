@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calorie Tracker</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        Are you sure you want to delete the item?<br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
